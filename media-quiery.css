@@ -1,0 +1,766 @@
+/* ------------------------------------------------ */
+@media (max-width:1440px) {
+    .links a {
+        display: inline;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width:576px) {
+    .links a {
+        display: inline;
+        padding: 0 10px;
+        font-size: medium;
+    }
+}
+
+@media (max-width : 480px) {
+    .links a {
+        display: none;
+    }
+}
+
+/* ----------MQ--------navbar ends----------------- */
+/* -------------------s1----------------------------- */
+@media (max-width : 840px) {
+    .section1 {
+        width: 100%;
+        height: 180vh;
+        position: relative;
+    }
+
+    .section1 .box {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        font-size: medium;
+    }
+
+    .box1 {
+        position: absolute;
+        top: 25%;
+    }
+
+    .btn,
+    .btn2 {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+@media (max-width : 840px) {
+
+    .section1 .btn,
+    .btn2 {
+        width: 90%;
+        margin: 10px;
+    }
+}
+
+@media (max-width : 310px) {
+    .section1 {
+        height: 200vh;
+    }
+
+    .box1 {
+        position: absolute;
+        top: 21%;
+    }
+}
+
+/* -------------------s1----------------------------- */
+/* -------------------s2----------------------------- */
+@media (max-width : 1440px) {
+    .section2 {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .boxx1 {
+        height: 700px;
+    }
+
+    .boxx2 {
+        height: 700px;
+    }
+
+    .boxx1 .img {
+        height: 700px;
+    }
+}
+
+@media (max-width : 870px) {
+    .section2 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    .boxx1 {
+        position: absolute;
+        height: 500px;
+        width: 100%;
+        margin-top: -15%;
+    }
+
+    .boxx1 .img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .boxx2 {
+        position: absolute;
+        margin-top: 100%;
+        height: 600px;
+        width: 100%;
+    }
+}
+
+@media (max-width : 830px) {
+    .boxx1 .img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .boxx2 {
+        position: absolute;
+        height: 400px;
+        width: 100%;
+        margin-top: 90%;
+    }
+}
+
+@media (max-width : 700px) {
+    .boxx1 .img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .boxx2 {
+        position: absolute;
+        height: 400px;
+        width: 100%;
+        margin-top: 110%;
+
+    }
+}
+
+@media (max-width : 620px) {
+
+    .boxx1 .img {
+        width: 100%;
+        height: 550px;
+    }
+
+    .boxx2 {
+        position: absolute;
+        height: 400px;
+        width: 100%;
+        margin-top: 130%;
+
+    }
+}
+
+@media (max-width : 580px) {
+
+    .boxx1 .img {
+        width: 100%;
+        height: 550px;
+    }
+
+    .boxx2 {
+        position: absolute;
+        height: 400px;
+        width: 100%;
+        margin-top: 140%;
+
+    }
+}
+
+@media (max-width : 580px) {
+
+    .boxx1 .img {
+        width: 100%;
+        height: 550px;
+    }
+
+    .boxx2 {
+        position: absolute;
+        height: 300px;
+        width: 100%;
+        margin-top: 150%;
+
+    }
+}
+
+@media (max-width : 450px) {
+    .boxx1 {
+        width: 100%;
+        height: 350px;
+    }
+
+    .boxx1 .img {
+        width: 100%;
+        height: 450px;
+        margin-top: -100px;
+        background-color: antiquewhite;
+    }
+
+    .boxx2 {
+        position: absolute;
+        height: 350px;
+        width: 100%;
+        margin-top: 160%;
+
+    }
+}
+
+/* -------------------s2----------------------------- */
+/* -------------------s3----------------------------- */
+@media (max-width : 870px) {
+    .section3 {
+        width: 100%;
+        height: 160vh;
+        font-size: medium;
+    }
+
+    .section3 .btn,
+    .btn2 {
+        display: none;
+    }
+
+    .s3h1 {
+        margin-top: 40%;
+    }
+
+    .h13 {
+        font-size: 25px;
+    }
+
+    .section3 .s3box {
+        width: 100%;
+        height: auto;
+        margin-top: -20%;
+    }
+
+    .section3 .s3box img {
+        width: 100%;
+        margin-top: 50px;
+        height: 500px;
+    }
+}
+
+@media (max-width : 710px) {
+    .section3 {
+        width: 100%;
+        height: 170vh;
+        font-size: medium;
+    }
+
+    .section3 .btn,
+    .btn2 {
+        display: none;
+    }
+
+    .s3h1 {
+        margin-top: 50%;
+    }
+
+    .h13 {
+        font-size: 25px;
+    }
+
+    .s3box p {
+        font-size: 12px;
+    }
+
+    .section3 .s3box {
+        width: 100%;
+        height: auto;
+        margin-top: -20%;
+    }
+
+    .section3 .s3box img {
+        width: 100%;
+        margin-top: 50px;
+        height: 500px;
+    }
+}
+
+@media (max-width : 670px) {
+    .section3 {
+        width: 100%;
+        height: 190vh;
+        font-size: medium;
+    }
+
+    .section3 .btn,
+    .btn2 {
+        display: none;
+    }
+
+    .s3h1 {
+        margin-top: 60%;
+    }
+
+    .h13 {
+        /* border-top: 1px solid rgba(128, 128, 128, 0.184); */
+        margin-top: -60%;
+        font-size: 25px;
+    }
+
+    .s3box p {
+        font-size: 12px;
+    }
+
+    .section3 .s3box {
+        width: 100%;
+        height: auto;
+        margin-top: -50%;
+    }
+
+    .section3 .ss3box {
+        position: absolute;
+        width: 100%;
+        margin-top: 50px;
+        height: 500px;
+    }
+
+    .section3 .ss3box img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width : 620px) {
+
+    .section3 {
+        width: 100%;
+        height: 160vh;
+        font-size: medium;
+    }
+
+    .section3 .btn,
+    .btn2 {
+        display: none;
+    }
+
+    .s3h1 {
+        margin-top: 80%;
+    }
+
+    .s3box .h13 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -40%;
+        font-size: 25px;
+    }
+
+    .p3 {
+        display: none;
+    }
+
+    .ss3box img {
+        background-color: antiquewhite;
+        margin-top: -60%;
+        width: 100%;
+        height: 270px;
+    }
+
+
+
+
+}
+
+@media (max-width : 582px) {
+
+    .section3 {
+        width: 100%;
+        height: 160vh;
+        font-size: medium;
+    }
+
+    .s3h1 {
+        margin-top: 100%;
+    }
+}
+
+@media (max-width : 480px) {
+
+    .section3 {
+        width: 100%;
+        height: 160vh;
+        font-size: medium;
+    }
+
+    .s3h1 {
+        margin-top: 110%;
+    }
+
+    .section3 .ss3box {
+        width: 100%;
+        height: 300px;
+        margin-top: -90%;
+    }
+}
+
+@media (max-width : 400px) {
+    .s3h1 {
+        margin-top: 120%;
+    }
+}
+
+@media (max-width : 394px) {
+    .s3h1 {
+        margin-top: 130%;
+    }
+}
+
+@media (max-width : 394px) {
+    .s3h1 {
+        margin-top: 150%;
+    }
+
+}
+
+@media (max-width : 370px) {
+    .s3h1 {
+        margin-top: 180%;
+    }
+
+}
+
+@media (max-width : 333px) {
+    .s3h1 {
+        margin-top: 180%;
+    }
+
+}
+
+/* -------------------s3----------------------------- */
+/* -------------------s4----------------------------- */
+@media (max-width : 872px) {
+    #gapdiv {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width : 860px) {
+    #gapdiv {
+        margin-top: -15%;
+    }
+}
+
+@media (max-width : 670px) {
+    #gapdiv {
+        margin-top: -50%;
+    }
+}
+
+@media (max-width : 500px) {
+    #gapdiv {
+        margin-top: -70%;
+    }
+
+    .boxicon span {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .boxicon p {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .boxicon i,
+    .boxicon .p {
+        font-size: 60px;
+    }
+}
+
+@media (max-width : 466px) {
+    #gapdiv {
+        margin-top: -100%;
+    }
+
+    .boxicon span {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .boxicon p {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .boxicon i,
+    .boxicon .p {
+        font-size: 40px;
+    }
+}
+
+@media (max-width : 359px) {
+    #gapdiv {
+        margin-top: -100%;
+    }
+
+    .boxicon span {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .boxicon p {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .boxicon i,
+    .boxicon .p {
+        font-size: 30px;
+    }
+}
+
+/* -------------------s4----------------------------- */
+/* -------------------s5----------------------------- */
+@media (max-width : 1198px) {
+    .section8 {
+        margin-top: 20%;
+        width: 100%;
+    }
+
+    .section8 .g1 {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width : 1197px) {
+    .section8 {
+        margin-top: -10%;
+        width: 100%;
+    }
+
+    .section8 .g1 img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width : 986px) {
+    .section8 {
+        margin-top: -10%;
+        width: 100%;
+    }
+
+    .section8 .g1 img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width : 837px) {
+    .section8 {
+        margin-top: -10%;
+        width: 100%;
+    }
+
+    .section8 .g1 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width : 686px) {
+    .section8 {
+        margin-top: -10%;
+        width: 100%;
+    }
+
+    .section8 .g1 img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width : 670px) {
+    .section8 {
+        width: 100%;
+        margin-top: -20%;
+    }
+
+    .section8 .g1 img {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (max-width : 566px) {
+
+    .section8 {
+        margin-top: -45%;
+        width: 100%;
+        height: 550vh;
+    }
+
+    .section8 .g1 img {
+        width: 400px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width : 466px) {
+    .section8 {
+        margin-top: -60%;
+        width: 100%;
+        height: 500vh;
+    }
+
+    .section8 .g1 img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width : 418px) {
+    .section8 {
+        width: 100%;
+        height: 500vh;
+        /* margin-top: 10%; */
+    }
+
+    .section8 .g1 img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* -------------------s5----------------------------- */
+/* -------------------s4 footer----------------------------- */
+@media (max-width : 1203px) {
+    .s4 {
+
+        margin-top: 15%;
+    }
+
+}
+
+@media (max-width : 1193px) {
+    .s4 {
+
+        margin-top: 10%;
+    }
+}
+
+@media (max-width : 986px) {
+    .s4 {
+
+        margin-top: 15%;
+    }
+}
+
+@media (max-width : 837px) {
+    .s4 {
+
+        margin-top: 15%;
+    }
+}
+
+@media (max-width : 670px) {
+    .s4 {
+
+        margin-top: 30%;
+    }
+}
+
+@media (max-width : 563px) {
+    .s4 {
+
+        margin-top: 15%;
+    }
+
+}
+
+@media (max-width : 510px) {
+    .s4 {
+
+        margin-top: 40%;
+
+        input,
+        textarea {
+            font-size: 15px;
+            margin: -10px;
+            height: 30px;
+        }
+    }
+
+    .s4 span {
+        margin-top: 25px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width : 418px) {
+    .s4 {
+
+        input,
+        textarea {
+            font-size: 15px;
+            margin: -10px;
+            height: 40px;
+        }
+    }
+
+    .s4 .main span {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width : 320px) {
+    
+    .s4 {
+        margin-top: 50%;
+
+        input,
+        textarea {
+            font-size: 15px;
+            margin: -10px;
+            height: 30px;
+        }
+    }
+
+    .s4 span {
+        margin-top: 25px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        margin-top: 30%;
+        font-size: 15px;
+    }
+}
+
+
+
+
+/* -------------------s4 footer----------------------------- */

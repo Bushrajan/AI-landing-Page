@@ -1,0 +1,383 @@
+@import url(./media-quiery.css);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: "Platypi", serif;
+    color: white;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --primrary: #0BCCCC;
+    --secondary: #51f416;
+}
+
+/* ------------------------ */
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2000;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.logo {
+    color: var(--primrary);
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.logo span {
+    color: var(--secondary);
+}
+
+.links {
+    display: inline;
+    justify-content: space-between;
+}
+
+.links a {
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 1px 80px;
+    color: var(--primrary);
+
+}
+
+.links a:hover {
+    color: var(--secondary);
+    background-color: black;
+}
+
+/* ------------------------ */
+
+.section1 {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.434), rgba(0, 0, 0, 0.414)), url(https://theicttrends.com/wp-content/uploads/2023/01/960x0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    /* border-bottom: 1px solid #8c8282; */
+}
+
+
+.box {
+    /* margin-top: 0px; */
+    width: 100%;
+    height: 500px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: left;
+}
+
+.box {
+    font-size: 13px;
+}
+
+.buttn {
+    margin-top: 40px;
+}
+
+.btn {
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin: 0 2px;
+    color: #51f416;
+    background-color: transparent;
+    border: 1px solid #51f416;
+}
+
+.btn:hover {
+
+    border: 1px solid #51f416;
+    background: #51f416;
+    color: white;
+}
+
+.btn2 {
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin: 0 2px;
+    border: 1px solid #51f416;
+    background-color: #4afb0a;
+}
+
+.btn2:hover {
+    box-shadow: 2px 2px 20px var(--secondary);
+}
+
+
+
+.box1 {
+    padding: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: translatey(0px);
+    animation: float 3s ease-in-out infinite;
+}
+
+.avatar {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+@keyframes float {
+    0% {
+        /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+        transform: translatey(0px);
+    }
+
+    50% {
+        /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+        transform: translatey(-45px);
+    }
+
+    100% {
+        /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+        transform: translatey(0px);
+    }
+}
+
+
+
+/* ----------------------------------------- */
+.section2 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    padding: 0 0px;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section2 .box2 .para {
+    padding: 20px 25px;
+    color: #8c8282;
+    font-size: 15px;
+}
+
+.h1+p {
+    color: #000;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+
+.boxx1 {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxx2 {
+    width: 50%;
+    height: 600px;
+    display: inline;
+    justify-content: center;
+    padding-top: 0 10px;
+    align-items: center;
+    padding-top: 60px;
+
+}
+
+.boxx2 .para {
+    padding: 0 70px;
+    padding-top: 40px;
+    color: #766c6c;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.boxx1 img {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.holo {
+    padding: 1%;
+    width: 100%;
+}
+
+/* ----------------------------------------- */
+.section3 {
+    height: 140vh;
+    margin-bottom: 0px;
+    margin-top: -190px;
+    background-image: none;
+    padding: 0 20px;
+    line-height: 30px;
+    border-bottom: 1px solid #8c82828f;
+}
+
+p {
+    font-size: 15px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.s3box {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: left;
+}
+
+/* ------------------------------------------- */
+/* ------------------------------------------ */
+.section4 {
+    margin-top: -2%;
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.434), rgba(0, 0, 0, 0.414)), url(https://images.nightcafe.studio/jobs/LmQFMioaQKbIQC5UTx7v/LmQFMioaQKbIQC5UTx7v--1--enq13_5.9524x-real-esrgan-x4-plus.jpg?tr=w-1600,c-at_max);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.434), rgba(0, 0, 0, 0.414)), url(https://aimadeimage.net/wp-content/uploads/2023/11/ai-robot-wallpaper-2.jpg); */
+    
+    margin-bottom: -60px;
+    border-bottom: 1px solid #8c82828f;
+}
+
+.mainbox {
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+}
+
+.boxicon {
+    width: 100%;
+    padding-top: 10px;
+    height: 40%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.boxicon span {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxicon p {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxicon i,
+.boxicon .p {
+    font-size: 70px;
+}
+
+.box .h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    color: #0BCCCC;
+}
+
+h1 {
+    font-style: oblique;
+    font-weight: 800;
+    margin-top: 40px;
+    font-size: 40px;
+    color: #0BCCCC;
+
+}
+
+.holo {
+    padding: 2%;
+    width: 100%;
+}
+/* ----------------------------------------- */
+.section8 {
+    width: 100%;
+    margin-top: 5%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+    margin-bottom: 10%;
+}
+
+.gallary .avatar1 img {
+    width: 370px;
+    margin: 10px;
+    height: 400px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    clip-path: polygon(11% 20%, 0 0, 18% 11%, 81% 12%, 100% 0, 86% 18%, 86% 80%, 99% 100%, 81% 90%, 18% 90%, 0 100%, 10% 80%);
+    
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+    margin-top: 10%;
+}
